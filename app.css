@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  display: flex; /*flexbox, center and align things in css*/
+  justify-content: center; /*center the whole div*/
+  align-items: center; /*align the div vertically*/
+  height: 100vh;
+  text-align:center; /*centering the text whithin the div*/
+  background: linear-gradient(to right, #c2e59c, #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+h1 {
+  
+  color: #02b2b8;
+}
+
+p {
+  max-width: 30em; /*more towards the center, takes up less space*/
+  color: #333333; /*affects the colour of what's in the paragraph*/
+}
+
+a { /*for all links*/
+  text-decoration: none; /*no underline*/
+  color:#00cdd4;
+}
+
+div {
+  border: 3px solid #03f4fc; /*affects all that is in the div in html*/
+  padding: 16px; /*plus loin des mots*/
+  box-shadow: 8px 8px #02b2b8; /*offset deptheOfBoxShadow*/ /*3d effect*/
+  border-radius: 10px; /*curvers the points*/
+}
+
+img {
+  height: 200px; /*height of image*/
+  border-radius: 10px/*borders around imgae*/ /*50px to make a circle*/
+}
+
+.custom { /*changes the color of p.custom, a particular paragraph. can do the same thing with div*/
+  color: red;
+}
